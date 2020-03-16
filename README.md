@@ -1,68 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Application is created with the focus to maximise the understanding of the doppler effect. I haven't deleted the unnecessary files, but I have tried to keep the application lightweight and made use of reusable components. If the application goes to a production level build phase one can use the rest of the files as well as it will be helpful for the developer to make use of reusable components.
 
-## Available Scripts
+### `Install all the libraries`
+Please install all the dependencies by running the following command "npm i" on your teminal 
 
-In the project directory, you can run:
 
-### `npm start`
+### `Run the following command to start the application`
+"npm start"
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### `Folders`
+1) Components 
+    It is the folder where I have designed the main component of the application as well as I have made components reusable.
+   To check reusabilty of a component please have a look at    
+   header.js file and see how it has been called on index.js. Similarly we can call scrollDownButton.js and videoAndAbstract.js in our entire application.
 
-### `npm test`
+2) CSS
+    In this folder I have created necessary CSS files for the application components.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3) Image 
+    It is an asset folder where all the necessary Images are kept.
 
-### `npm run build`
+### `Files & Workings of it`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1)  App.js
+    It is the main root file for the application. Inside the file Index is called which is imported from components index.js file.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+2)  index.js
+    It is the main file where all the components are called and which creates the webpage.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3) header.js
+    It is a reusable component for header.
 
-### `npm run eject`
+4) scrollDownButton.js
+    It is also a reusable button component.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5) videoAndAbstract.js
+    It is a reusable component which has a video player and an abstract text which can describe various information about the workings of the page.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
